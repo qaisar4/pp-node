@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import { generateToken } from "../services/jwtServices.js";
 import { isEmail } from "../utils/emailValidator.js";
-const users = [];
+import { addUser, users } from "../modals/userStore.js";
 
 export const register = async (req, res) => {
   const { username, email, password } = req.body;
@@ -23,7 +23,7 @@ export const register = async (req, res) => {
 
   // simulate saving user
   const newUser = { username, email, password: hashedPassword };
-  users.push(newUser);
+  addUser(newUser);
 
   // generate token
   const token = generateToken(newUser);
