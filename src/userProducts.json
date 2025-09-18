@@ -1,0 +1,42 @@
+[
+    {
+        "userId": 1,
+        "productId": 1,
+        "quantity": 2,
+        "price": 100,
+        "productName": "product 1",
+        "productDescription": "product 1 description"
+    },
+    {
+        "userId": 1,
+        "productId": 2,
+        "quantity": 1,
+        "price": 200,
+        "productName": "product 2",
+        "productDescription": "product 2 description"
+    },  
+    {
+        "userId": 1,
+        "productId": 3,
+        "quantity": 1,
+        "price": 300,
+        "productName": "product 3",
+        "productDescription": "product 3 description"
+    },
+    {
+        "userId": 2,
+        "productId": 4,
+        "quantity": 1,
+        "price": 400,
+        "productName": "product 4",
+        "productDescription": "product 4 description"
+    },
+    {
+        "userId": 2,
+        "productId": 5,
+        "quantity": 1,
+        "price": 500,
+        "productName": "product 5",
+        "productDescription": "product 5 description"
+    }
+]

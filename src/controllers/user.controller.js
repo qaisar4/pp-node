@@ -1,4 +1,5 @@
 import { users } from "../modals/userStore.js";
+import { products } from "../modals/productStore.js";
 
 export const userProfile = (req, res) => {
   const email = req.user.email;
@@ -11,5 +12,15 @@ export const userProfile = (req, res) => {
   return res.json({
     message: "Success",
     user: { username: user.username, email: user.email },
+  });
+};
+
+export const userProducts = (req, res) => {
+  if (!products.length) {
+    return res.status(404).json({ error: "No products found" });
+  }
+  return res.json({
+    message: "Success",
+    products,
   });
 };
