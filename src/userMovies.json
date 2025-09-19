@@ -1,0 +1,27 @@
+[
+    {
+        "userId": 1,
+        "movieId": 1,
+        "movieName": "Wrong Turn",
+        "movieDescription": "Wrong Turn description"
+    },
+    {
+        "userId": 2,
+        "movieId": 2,
+        "movieName": "Avengers",
+        "movieDescription": "Avengers description"
+    },  
+    {
+        "userId": 1,
+        "movieId": 3,
+        "movieName": "Money Heist",
+        "movieDescription": "Money Heist description"
+    },
+    {
+        "userId": 2,
+        "movieId": 5,
+        "movieName": "product 5",
+        "movieDescription": "product 5 description"
+    }
+ 
+]
